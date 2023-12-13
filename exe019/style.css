@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* 
+    em HTML é id = em CSS é #
+    só se pode ter um elemento com id="principal", nesse caso seria o primeiro h1
+    usar id 
+
+    em HTML é class - em CSS é .
+    usar class quando for para mais de um, nesse caso usando no h2 html basico e no h2 css basico
+    não classificar com class pela forma, e sim pela funcionalidade
+*/
+
+body{
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: green;
+}
+
+#principal{
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+h2{
+    color: black;
+}
+
+.basico{
+    color: white;
+}
+
+.intermediario{
+    color: blue;
+}
+
+.avancado{
+    color: pink;
+}
+
+.destaque{
+    background-color: brown;
+}
